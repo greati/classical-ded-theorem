@@ -1,5 +1,6 @@
 ## Example
 
+```
 From: ['Q', '(P imp (Q imp R))', 'P'] |-- R
 0  (P imp (Q imp R))       S
 1                  P       S
@@ -116,3 +117,4 @@ To: [] |-- ((P imp (Q imp R)) imp (Q imp (P imp R)))
 106                                                                                                                                                                                                                                                  (((P imp (Q imp R)) imp ((Q imp (P imp Q)) imp (Q imp (P imp R)))) imp (((P imp (Q imp R)) imp (Q imp (P imp Q))) imp ((P imp (Q imp R)) imp (Q imp (P imp R)))))           A
 107                                                                                                                                                                                                                                                                                                                          (((P imp (Q imp R)) imp (Q imp (P imp Q))) imp ((P imp (Q imp R)) imp (Q imp (P imp R))))  MP 106 105
 108                                                                                                                                                                                                                                                                                                                                                                          ((P imp (Q imp R)) imp (Q imp (P imp R)))   MP 107 81
+```
